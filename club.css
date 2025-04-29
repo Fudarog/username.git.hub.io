@@ -1,0 +1,158 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+li a{
+    font-family: Play;
+    font-size: 14pt;
+    color: #31422D;
+    text-decoration: none; 
+}
+.line-header{
+    background-color: #31422D;
+    width: 1230px;
+    height: 1px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.oncle_with_text{
+    margin-left: 150px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.oncle_with_text p{
+    font-family: play;
+    font-size: 18pt;
+    margin-top: 70px;
+    margin-right: 150px;
+    margin-left: 100px;
+    color: #31422D;
+}
+h3{
+    margin-top: 50px;
+    margin-left: 150px;
+    font-family: play;
+    font-size: 24pt;
+    color: #31422D;
+}
+.map{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rectangle-map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #31422D;
+    background-color: transparent;
+    width: 1210px;
+    height: 400px;
+}
+.text-about-map{
+    margin-top: 50px;
+    font-family: Play;
+    font-size: 18pt;
+    color: #31422D;
+    margin-right: 150px;
+    margin-left: 150px;
+}
+.text-about-map ul{
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+    list-style-type: disc;
+    margin-left: 30px;
+}
+
+
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.ball-footer img{
+    margin-left: -20px;
+    margin-bottom: -100px;
+}
+.text-footer{
+    margin-top: 100px;
+    color: #31422D;
+    font-family: Play;
+    font-size: 16pt;
+    margin-right: 200px;
+}
+.text-footer2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    line-height: 2;
+}
+.social{
+    margin-right: 200px;
+    margin-top: 10px;
+}
+.social img{
+    margin-left: 45px;
+}
+
+
+
+@media (max-width: 1280px) {
+    *{
+        margin-left: -20px;
+    }
+    header nav{
+        margin-left: -100px;
+        margin-right: -200px;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .line-header{
+        width: 1100px;
+    }
+    .oncle_with_text p{
+        margin-top: 50px;
+        font-size: 16pt;
+    }
+    .rectangle-map{
+        margin-left: 90px;
+        width: 1090px;
+        height: 350px;
+    }
+    .rectangle-map img{
+        
+        height: 300px;
+    }
+    .text-about-map p{
+        font-size: 16pt;
+    }
+    .text-about-map li{
+        font-size: 16pt;
+    }
+    .ball-footer img{
+        margin-left: 80px;
+        height: 250px;
+    }
+    footer p{
+        font-size: 14pt;
+    }
+    .social img{
+        height: 50px;
+    }
+}

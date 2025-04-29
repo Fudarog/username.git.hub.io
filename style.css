@@ -1,0 +1,328 @@
+*{
+    margin: 0px 0px 0px 0px;
+    padding: 0px 0px 0px 0px;
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    list-style: none;
+    margin-top: 30px;
+    margin-left: 400px;
+    margin-right: 400px;
+}
+li a{
+    font-family: Play;
+    font-size: 14pt;
+    color: #31422D;
+    text-decoration: none; 
+}
+.line-header{
+    background-color: #31422D;
+    width: 1230px;
+    height: 1px;
+    margin-left: 150px;
+    margin-top: 15px;
+}
+.main-block h2{
+    font-family: Graduate;
+    font-size: 100pt;
+    margin-left: 150px;
+    color: #31422D;
+    margin-top: 50px;
+}
+.main-block img {
+    margin-left: 150px;
+    margin-top: 50px;
+    width: 1230px; 
+    height: 400px;
+}
+.main-block p {
+    font-family: Play;
+    font-size: 18pt;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    color: #31422D;
+    margin-top: 20px;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.advantages{
+    margin-top: 70px;
+    background-image: url("images/advatages-back.jpeg");
+    background-repeat: no-repeat;
+    width: 1369px;
+    height: 500px;
+    color: white;
+    font-family: play;
+    font-size: 30pt;
+    padding-left: 150px;
+    display: flex;
+    align-items: center;
+}
+.advantages h3{
+    font-size: 80pt;
+}
+.first-point{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 50px;
+}
+.second-point{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.third-point{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-right: 150px;
+    padding-left: 30px;
+}
+
+.components-golf-club{
+    margin-top: 70px;
+    margin-left: 200px;
+    margin-right: 200px; 
+}
+.components-img{
+    display: flex;
+    justify-content: space-evenly;
+}
+.components-img p{ 
+    display: flex;
+    text-align: center;
+    font-family: Play;
+    font-size: 14pt;
+}
+.first-component p{
+    padding-left: 15px;
+}
+.second-component p{
+    padding-left: -5px;
+}
+.forth-component p{
+    margin-left: -10px;
+}
+.fifth-component p{
+    margin-left: 10px;
+}
+.bronirovanie img{
+    margin-left: 1145px;
+}
+.rectangle{
+    width: 600px;
+    height: 300px;
+    border: 2px solid #31422D;
+    border-radius: 50px;
+    margin-left: 250px;
+    margin-top: -200px;
+}
+.rectangle-head p{
+    font-size: 20pt;
+    font-family: play;
+    display: flex;
+    justify-content: center;
+    padding-top: 20px;
+    color: #31422D;
+}
+.rectangle-text input{
+    width: 350px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left: 50px;
+    margin-top: 20px;
+    padding-left: 5px;
+}
+.rectangle-text input::placeholder{
+    font-family: play;
+    font-size: 18pt;
+}
+.players select{
+    width: 358px;
+    height: 40px;
+    color:#757575; 
+    font-size: 18pt;
+    font-family: play;
+    padding-top: -5px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.lunki select{
+    width: 358px;
+    height: 40px;
+    color:#757575; 
+    font-size: 18pt;
+    font-family: play;
+    padding-top: -5px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+.rectangle button{
+    width: 250px;
+    height: 45px;
+    border-radius: 25px;
+    background-color: #3E5837;
+    color: aliceblue;
+    font-size: 24px;
+    font-family: Play;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 17px;
+    margin-left: 300px;
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: space-between;
+}
+.ball-footer img{
+    margin-left: -20px;
+    margin-bottom: -100px;
+}
+.text-footer{
+    margin-top: 100px;
+    color: #31422D;
+    font-family: Play;
+    font-size: 16pt;
+    margin-right: 200px;
+}
+.text-footer2{
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    line-height: 2;
+}
+.social{
+    margin-right: 200px;
+    margin-top: 10px;
+}
+.social img{
+    margin-left: 45px;
+}
+
+
+
+@media (max-width: 1280px) {
+    *{
+        margin-left: -20px;
+    }
+    header nav{
+        margin-left: -100px;
+        margin-right: -200px;
+    }
+    header nav ul{
+        display: flex;
+        justify-content: space-between;
+    }
+    .line-header{
+        width: 1100px;
+    }
+    .main-block img{
+        width: 1100px;
+        height: 382px;
+    }
+    .main-block p {
+        font-size: 20pt;
+        margin-right: 50px;
+        margin-left: 120px;
+    }
+    .advantages p{
+        font-size: 22pt;
+        margin-left: 15px;
+    }
+    .advantages h3{
+        font-size: 64pt;
+    }
+    .advantages{
+        display: flex;
+        justify-content: space-between;
+        background-size: 87%;
+    }
+    .first-point{
+        padding-left: 50px;
+    }
+    .third-point{
+        margin-right: 120px;
+    }
+    .components-img{
+        display: flex;
+        justify-content: space-between;
+        margin-left: 70px;
+    }
+    .bronirovanie img{
+        width: 300px;
+        height: 400px;
+        margin-left: 1050px;
+    }
+    .players{
+        margin-left: 0px;
+    }
+    .lunki{
+        margin-left: 0px;
+    }
+    .ball-footer img{
+        margin-left: 80px;
+        height: 250px;
+    }
+    footer p{
+        font-size: 14pt;
+    }
+    .social img{
+        height: 50px;
+    }
+}
+
+@media (max-width: 412px){
+    nav{
+        opacity: 0;
+    }
+    .line-header{
+        opacity: 0;
+    }
+    .main-block h2{
+        font-size: 40pt;
+    }
+    .main-block{
+        background-image: url("images/first-page.jpg");
+        background-repeat: no-repeat;
+    }
+    .main-block img{
+        opacity: 0;
+    }
+    .main-block p{
+        font-size: 16pt;
+        margin: 0px 20px 0px 70px;
+    }
+    .advantages{
+        background-image: none;
+        color: #31422D;
+        margin-left: -500px;
+        display: flex;
+        flex-direction: column;
+    }
+    .advantages h3{
+        font-size: 60pt;
+    }
+    .advantages p{
+        font-size: 20pt;
+    }
+    .first-point{
+        margin-left: -170px;
+    }
+    .second-point{
+        margin-top: -180px;
+        margin-left: -150px;
+
+    }
+    .third-point {
+        margin-left: 50px;
+    }
+}
